@@ -1,0 +1,4 @@
+#!/bin/bash
+git add .
+git commit -m'made files exec for checker'
+git push
