@@ -19,7 +19,7 @@ All of the following folders are projects done during the studies:
 
 
 ## Author :
-* **[Bryson Nyaliti](https://twitter.com/NyalitiBryson)** <[Bryson](https://github.com/nyaliti)>
+* **[Bryson Nyaliti<[Bryson](https://github.com/nyaliti)>
 
 ## Acknowledgements :pray:
 
