@@ -1,6 +1,14 @@
 #!/usr/bin/env bash
 # installs nginx and configures it on a remote server
 
+
+# Check if the script is running as root
+if [ "$EUID" -ne 0 ]; then
+	echo "ERROR: Run this script as root using 'sudo'."
+	exit 1
+fi
+
+
 apt-get -y update
 apt-get -y install nginx
 ufw allow 'Nginx HTTP'
